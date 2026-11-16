@@ -5,7 +5,8 @@ Run with: python explore.py   (from the ism2411-lab13 folder)
 
 SELF-ASSESSMENT
 1. What does a boolean filter do, in plain English?
-   A boolean filter is a thing that asks a yes and no question for every row.
+   A boolean filter is a thing that asks a yes and no question for every row,
+   and then keeps only the rows where the answer is yes.
 
 2. What is the difference between df["revenue"] and df[["revenue"]]?
    df["revenue"] (single brackets) gives back a Series: one column of values.
@@ -17,7 +18,8 @@ SELF-ASSESSMENT
 
 3. Why pandas instead of Excel for this task?
    pandas is easier to add rows and columns with sets of data in a single
-   script.
+   script, and since it is all in one script I can rerun it on new data and
+   get the same steps every time instead of redoing it by hand.
 """
 
 import os
